@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
@@ -14,24 +15,27 @@ import java.util.Properties;
 public class base {
     public WebDriver driver;
     public Properties property;
-    public String url= "http://localhost:3000/";
+    public String url;
 
-
+    
     public WebDriver initializeDriver() throws IOException {
 
 
-//        property = new Properties();
-//        FileInputStream file = new FileInputStream("C:\\Users\\adars\\Excel");
-//
-//        property.load(file);
-//        String BrowserName = property.getProperty("browser");
-        String BrowserName = "chrome";
+        property = new Properties();
+        FileInputStream file = new FileInputStream("src/main/java/Com/Config/Config.properties");
+
+        property.load(file);
+
+        String BrowserName = property.getProperty("browser");
+        url = property.getProperty("url");
+
         if(BrowserName.equals("chrome"))
         {
             System.setProperty("webdriver.chrome.driver", "C:\\selenium webdriver\\chromedriver.exe");
             driver = new ChromeDriver();
 
         }
+
         else if(BrowserName.equals("firefox"))
         {
             driver = new FirefoxDriver();
@@ -44,8 +48,8 @@ public class base {
         return driver;
     }
 
-    public WebDriver openurlandverifyPage() {
-
+    public WebDriver openurlandverifyPage() throws IOException {
+        url = property.getProperty("url");
         driver.get(url);
 //        String Expected = driver.findElement(By.cssSelector("p[class='login-box-msg']")).getText();
 //        String Actual = "Sign in to start your session";

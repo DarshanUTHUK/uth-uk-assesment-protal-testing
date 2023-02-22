@@ -173,8 +173,9 @@ public class Exceltable {
 
         Exceltable objExceltable = new Exceltable();
 
-        objExceltable.readExceltable("C:\\Users\\adars\\Excel", "TestData.xlsx", "Module_1", "TestScript_1");
-
+        objExceltable.readExceltable("C:\\Users\\adars\\Excel", "TestData.xlsx", "Module_1", "BookAnApppointment");
+        objExceltable.ExcelData();
+        objExceltable.printData();
 
     }
 }
