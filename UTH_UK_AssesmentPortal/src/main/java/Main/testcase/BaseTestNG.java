@@ -17,9 +17,10 @@ public class BaseTestNG extends base {
     WebDriver driver;
 
     @BeforeClass
-    public void LunchBrowserAndNavigateToUrlSetup() throws IOException {
+    public WebDriver LunchBrowserAndNavigateToUrlSetup() throws IOException {
         driver = initializeDriver();
         openurlandverifyPage();
+        return driver;
     }
 
     @AfterMethod
@@ -27,10 +28,7 @@ public class BaseTestNG extends base {
         Reporter.setCurrentTestResult(result);
         if (result.getStatus()==2) {
             Reporter.log("This is failed log from reporter.log" , true);
-            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String currentDir = System.getProperty("user.dir");
-            FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
+
         }
         }
     }
-}

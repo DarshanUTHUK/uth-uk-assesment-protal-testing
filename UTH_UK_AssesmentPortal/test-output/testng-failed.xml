@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Uth-uk Assesment portal Test Automation Test Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="Com.TestNGReportsGen.ExtentReporterNG"/>
-  </listeners>
-  <test name="Uth-uk Assesment portal(failed)">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test name="UTH_UK_AssesmentPortal(failed)">
     <classes>
       <class name="Main.testcase.demo">
         <methods>
           <include name="LunchBrowserAndNavigateToUrlSetup"/>
           <include name="FailureSetup"/>
-          <include name="test"/>
+          <include name="test" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- Main.testcase.demo -->
     </classes>
-  </test> <!-- Uth-uk Assesment portal(failed) -->
-</suite> <!-- Failed suite [Uth-uk Assesment portal Test Automation Test Suite] -->
+  </test> <!-- UTH_UK_AssesmentPortal(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

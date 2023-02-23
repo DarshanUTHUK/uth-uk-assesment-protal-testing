@@ -10,13 +10,13 @@ import java.io.IOException;
 
 public class demo extends BaseTestNG {
      WebDriver driver;
-    @DataProvider(name="TestScript_13")
+    @DataProvider(name="TestScript_1")
     public Object[][] dataRegister(){
         Exceltable Data = new Exceltable();
-        Data.readExceltable("src/main/resources/", "TestData.xlsx", "Module_1", "TestScript_13");
+        Data.readExceltable("src/main/resources/", "TestData.xlsx", "Module_1", "TestScript_1");
         return Data.ExcelData();
     }
-@Test(dataProvider = "TestScript_13" ,suiteName = "Register")
+@Test(dataProvider = "TestScript_1" ,suiteName = "Register")
 public void test(String Email,String Username,String Password,String Execute) throws IOException {
  Uth_uk_assesment myRegister = new Uth_uk_assesment();
 //    Reporter.log(driver.getTitle(),true);
