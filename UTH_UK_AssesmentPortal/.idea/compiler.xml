@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="uth-uk_Assesment" />
+        <module name="UTH_UK_AssesmentPortal" />
       </profile>
     </annotationProcessing>
   </component>
