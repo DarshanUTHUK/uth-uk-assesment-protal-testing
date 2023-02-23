@@ -7,7 +7,7 @@
         <methods>
           <include name="LunchBrowserAndNavigateToUrlSetup"/>
           <include name="FailureSetup"/>
-          <include name="test" invocation-numbers="0 1"/>
+          <include name="Login_Test" invocation-numbers="2"/>
         </methods>
       </class> <!-- Main.testcase.Testcase -->
     </classes>

@@ -9,10 +9,11 @@ import java.io.File;
 import java.io.IOException;
 
 public class ScreenshotforReport {
-    public void takeScreenshotAtEndOfTest() throws IOException {
-        WebDriver driver = null;
+    public Object takeScreenshotAtEndOfTest(WebDriver driver) throws IOException {
+//        WebDriver driver = null;
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String currentDir = System.getProperty("user.dir");
         FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
+        return scrFile;
     }
 }

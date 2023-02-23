@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[lunchedbrowser]]>
     </line>
+    <line>
+      <![CDATA[This is failed log from reporter.log]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-23T08:36:46Z" name="Default Suite" finished-at="2023-02-23T08:37:06Z" duration-ms="19399">
+  <suite started-at="2023-02-23T11:07:42Z" name="Default Suite" finished-at="2023-02-23T11:08:11Z" duration-ms="29039">
     <groups>
     </groups>
-    <test started-at="2023-02-23T08:36:46Z" name="UTH_UK_AssesmentPortal" finished-at="2023-02-23T08:37:06Z" duration-ms="19399">
+    <test started-at="2023-02-23T11:07:42Z" name="UTH_UK_AssesmentPortal" finished-at="2023-02-23T11:08:11Z" duration-ms="29039">
       <class name="Main.testcase.Testcase">
-        <test-method is-config="true" signature="LunchBrowserAndNavigateToUrlSetup()[pri:0, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:46Z" name="LunchBrowserAndNavigateToUrlSetup" finished-at="2023-02-23T14:06:46Z" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="LunchBrowserAndNavigateToUrlSetup()[pri:0, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:42Z" name="LunchBrowserAndNavigateToUrlSetup" finished-at="2023-02-23T16:37:45Z" duration-ms="3164" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[lunchedbrowser]]>
             </line>
           </reporter-output>
         </test-method> <!-- LunchBrowserAndNavigateToUrlSetup -->
-        <test-method signature="Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:47Z" name="Register_Test" data-provider="TestScript_1" finished-at="2023-02-23T14:06:51Z" duration-ms="3908" status="PASS">
+        <test-method signature="Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:46Z" name="Register_Test" data-provider="TestScript_1" finished-at="2023-02-23T16:37:49Z" duration-ms="3455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,18 +46,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register_Test -->
-        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:51Z" name="FailureSetup" finished-at="2023-02-23T14:06:51Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:49Z" name="FailureSetup" finished-at="2023-02-23T16:37:49Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register_Test status=SUCCESS method=Testcase.Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Register_Test status=SUCCESS method=Testcase.Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@77e4c80f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailureSetup -->
-        <test-method signature="Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:51Z" name="Register_Test" data-provider="TestScript_1" finished-at="2023-02-23T14:06:54Z" duration-ms="2671" status="PASS">
+        <test-method signature="Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:49Z" name="Register_Test" data-provider="TestScript_1" finished-at="2023-02-23T16:37:53Z" duration-ms="3595" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,18 +83,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register_Test -->
-        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:54Z" name="FailureSetup" finished-at="2023-02-23T14:06:54Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:53Z" name="FailureSetup" finished-at="2023-02-23T16:37:53Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register_Test status=SUCCESS method=Testcase.Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Register_Test status=SUCCESS method=Testcase.Register_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Main.testcase.Testcase@77e4c80f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailureSetup -->
-        <test-method signature="Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:54Z" name="Login_Test" data-provider="TestScript_2" finished-at="2023-02-23T14:06:58Z" duration-ms="4594" status="PASS">
+        <test-method signature="Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:53Z" name="Login_Test" data-provider="TestScript_2" finished-at="2023-02-23T16:37:58Z" duration-ms="4613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,18 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:58Z" name="FailureSetup" finished-at="2023-02-23T14:06:58Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Login_Test status=SUCCESS method=Testcase.Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@7fe8ea47] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FailureSetup -->
-        <test-method signature="Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:06:58Z" name="Login_Test" data-provider="TestScript_2" finished-at="2023-02-23T14:07:02Z" duration-ms="3753" status="PASS">
+        <test-method signature="Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:58Z" name="Login_Test" data-provider="TestScript_2" finished-at="2023-02-23T16:38:02Z" duration-ms="3782" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,22 +136,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:07:02Z" name="FailureSetup" finished-at="2023-02-23T14:07:02Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:37:58Z" name="FailureSetup" finished-at="2023-02-23T16:37:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login_Test status=SUCCESS method=Testcase.Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Login_Test status=SUCCESS method=Testcase.Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@77e4c80f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailureSetup -->
-        <test-method signature="Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:07:02Z" name="Login_Test" data-provider="TestScript_2" finished-at="2023-02-23T14:07:06Z" duration-ms="3494" status="PASS">
+        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:38:02Z" name="FailureSetup" finished-at="2023-02-23T16:38:02Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Darshanmj]]>
+                <![CDATA[[TestResult name=Login_Test status=SUCCESS method=Testcase.Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@77e4c80f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailureSetup -->
+        <test-method signature="Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:38:02Z" name="Login_Test" data-provider="TestScript_2" finished-at="2023-02-23T16:38:11Z" duration-ms="8901" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Darshanm]]>
               </value>
             </param>
             <param index="1">
@@ -173,14 +176,83 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='password']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'LAPTOP-IKA23L7Q', ip: '192.168.1.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12f6b4adf4fa5c9c64b2316cfd4d6faf, findElement {using=name, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\adars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58986/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12f6b4adf4fa5c9c64b2316cfd4d6faf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='password']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'LAPTOP-IKA23L7Q', ip: '192.168.1.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12f6b4adf4fa5c9c64b2316cfd4d6faf, findElement {using=name, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\adars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58986/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12f6b4adf4fa5c9c64b2316cfd4d6faf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:376)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at Reuseable.testcase.Uth_Uk_Login.uthuk_Assesment_Password(Uth_Uk_Login.java:26)
+	at Main.testcase.Testcase.Login_Test(Testcase.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[This is failed log from reporter.log]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@7fe8ea47]" started-at="2023-02-23T14:07:06Z" name="FailureSetup" finished-at="2023-02-23T14:07:06Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="FailureSetup(org.testng.ITestResult)[pri:0, instance:Main.testcase.Testcase@77e4c80f]" started-at="2023-02-23T16:38:11Z" name="FailureSetup" finished-at="2023-02-23T16:38:11Z" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login_Test status=SUCCESS method=Testcase.Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Login_Test status=FAILURE method=Testcase.Login_Test(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Main.testcase.Testcase@77e4c80f] output=This is failed log from reporter.log]]]>
               </value>
             </param>
           </params>
