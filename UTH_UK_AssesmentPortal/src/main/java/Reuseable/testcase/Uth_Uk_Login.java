@@ -22,8 +22,6 @@ public class Uth_Uk_Login extends base {
     }
 
     public WebDriver uthuk_Assesment_Password(String Password) throws IOException {
-        driver = initializeDriver();
-        openurlandverifyPage();
         password = new password_page(driver);
         password.Login_password.sendKeys(Password);
         password.Sign_In_Btn.click();

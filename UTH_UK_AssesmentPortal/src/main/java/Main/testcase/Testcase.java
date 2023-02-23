@@ -15,7 +15,7 @@ public class Testcase extends BaseTestNG {
         Data.readExceltable("src/main/resources/", "TestData.xlsx", "Module_1", "TestScript_1");
         return Data.ExcelData();
     }
-@Test(dataProvider = "TestScript_1" ,suiteName = "Register")
+@Test(dataProvider = "TestScript_1" ,suiteName = "Register" ,priority = 1)
 public void Register_Test(String Email,String Username,String Password,String Execute) throws IOException {
  Uth_uk_Register myRegister = new Uth_uk_Register();
 //    Reporter.log(driver.getTitle(),true);
@@ -28,7 +28,7 @@ public void Register_Test(String Email,String Username,String Password,String Ex
         Data.readExceltable("src/main/resources/", "TestData.xlsx", "Module_1", "TestScript_2");
         return Data.ExcelData();
     }
-    @Test(dataProvider = "TestScript_2" ,suiteName = "Login")
+    @Test(dataProvider = "TestScript_2" ,suiteName = "Login",priority = 2)
     public void Login_Test(String Username,String Password,String Execute) throws IOException {
         Uth_Uk_Login myLogin = new Uth_Uk_Login();
        myLogin.uthuk_Assesment_Username(Username);

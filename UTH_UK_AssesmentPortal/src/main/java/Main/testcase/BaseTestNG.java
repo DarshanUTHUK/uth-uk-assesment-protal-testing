@@ -14,14 +14,12 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class BaseTestNG extends base {
+public class BaseTestNG  {
     WebDriver driver;
 
     @BeforeClass
-    public WebDriver LunchBrowserAndNavigateToUrlSetup() throws IOException {
-        driver = initializeDriver();
-        openurlandverifyPage();
-        return driver;
+    public void LunchBrowserAndNavigateToUrlSetup() throws IOException {
+        Reporter.log("lunchedbrowser" , true);
     }
 
     @AfterMethod
