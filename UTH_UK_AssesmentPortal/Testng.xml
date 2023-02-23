@@ -9,7 +9,7 @@
 
     <test name="Uth-uk Assesment portal">
         <classes>
-            <class name="Main.testcase.demo"></class>
+            <class name="Main.testcase.Testcase"></class>
 <!--            <class name="com.crm.qa.testcases.HomePageTest"></class>-->
 <!--            <class name="com.crm.qa.testcases.ContactsPageTest"></class>-->
 
