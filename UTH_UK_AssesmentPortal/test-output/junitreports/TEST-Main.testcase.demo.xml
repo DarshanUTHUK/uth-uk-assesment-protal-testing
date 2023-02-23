@@ -3,9 +3,9 @@
 <testsuite hostname="LAPTOP-IKA23L7Q" failures="0" tests="2" name="Main.testcase.demo" time="0.015" errors="2" timestamp="23 Feb 2023 07:10:33 GMT" skipped="0">
   <testcase classname="Main.testcase.demo" name="test" time="0.001">
     <error message="Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.property&quot; is null" type="java.lang.NullPointerException">
-      <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
+        <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
 	at Com.Base.resources.base.openurlandverifyPage(base.java:52)
-	at Reuseable.testcase.Uth_uk_assesment.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
+	at Reuseable.testcase.Uth_uk_Register.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
 	at Main.testcase.demo.test(demo.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -34,9 +34,9 @@
   </testcase> <!-- test -->
   <testcase classname="Main.testcase.demo" name="test" time="0.014">
     <error message="Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.property&quot; is null" type="java.lang.NullPointerException">
-      <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
+        <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
 	at Com.Base.resources.base.openurlandverifyPage(base.java:52)
-	at Reuseable.testcase.Uth_uk_assesment.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
+	at Reuseable.testcase.Uth_uk_Register.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
 	at Main.testcase.demo.test(demo.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)

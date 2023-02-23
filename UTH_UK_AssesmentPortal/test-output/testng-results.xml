@@ -45,9 +45,9 @@
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
+                <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
 	at Com.Base.resources.base.openurlandverifyPage(base.java:52)
-	at Reuseable.testcase.Uth_uk_assesment.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
+	at Reuseable.testcase.Uth_uk_Register.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
 	at Main.testcase.demo.test(demo.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -119,9 +119,9 @@
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
+                <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.property" is null
 	at Com.Base.resources.base.openurlandverifyPage(base.java:52)
-	at Reuseable.testcase.Uth_uk_assesment.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
+	at Reuseable.testcase.Uth_uk_Register.uthuk_Assesment_Register(Uth_uk_assesment.java:18)
 	at Main.testcase.demo.test(demo.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
