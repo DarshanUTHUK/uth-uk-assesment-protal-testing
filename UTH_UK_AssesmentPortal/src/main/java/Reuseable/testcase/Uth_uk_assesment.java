@@ -13,9 +13,7 @@ WebDriver driver;
  RegisterPage Register;
 
     public WebDriver uthuk_Assesment_Register(String Email,String Username,String Password) throws IOException {
-
-        driver=initializeDriver();
-        openurlandverifyPage();
+        
         Register = new RegisterPage(driver);
         Register.Regsiter_Now.click();
         Register.Email.sendKeys(Email);

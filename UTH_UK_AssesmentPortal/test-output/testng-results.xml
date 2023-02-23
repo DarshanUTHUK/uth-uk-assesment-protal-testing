@@ -2,12 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-22T14:57:05Z" name="Default Suite" finished-at="2023-02-22T14:57:30Z" duration-ms="25298">
+  <suite started-at="2023-02-23T05:31:17Z" name="Uth-uk Assesment portal Test Automation Test Suite" finished-at="2023-02-23T05:31:28Z" duration-ms="10843">
     <groups>
     </groups>
-    <test started-at="2023-02-22T14:57:05Z" name="uth-uk_Assesment" finished-at="2023-02-22T14:57:30Z" duration-ms="25298">
+    <test started-at="2023-02-23T05:31:17Z" name="Uth-uk Assesment portal" finished-at="2023-02-23T05:31:28Z" duration-ms="10843">
       <class name="Main.testcase.demo">
-        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Main.testcase.demo@279ad2e3]" started-at="2023-02-22T20:27:06Z" name="test" data-provider="TestScript_1" finished-at="2023-02-22T20:27:27Z" duration-ms="20950" status="PASS">
+        <test-method is-config="true" signature="LunchBrowserAndNavigateToUrlSetup()[pri:0, instance:Main.testcase.demo@35fc6dc4]" started-at="2023-02-23T11:01:17Z" name="LunchBrowserAndNavigateToUrlSetup" finished-at="2023-02-23T11:01:21Z" duration-ms="3690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowserAndNavigateToUrlSetup -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Main.testcase.demo@35fc6dc4]" started-at="2023-02-23T11:01:22Z" name="test" data-provider="TestScript_1" finished-at="2023-02-23T11:01:24Z" duration-ms="2573" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Main.testcase.demo@279ad2e3]" started-at="2023-02-22T20:27:27Z" name="test" data-provider="TestScript_1" finished-at="2023-02-22T20:27:30Z" duration-ms="3396" status="PASS">
+        <test-method is-config="true" signature="FailureSetup()[pri:0, instance:Main.testcase.demo@35fc6dc4]" started-at="2023-02-23T11:01:24Z" name="FailureSetup" finished-at="2023-02-23T11:01:25Z" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailureSetup -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Main.testcase.demo@35fc6dc4]" started-at="2023-02-23T11:01:25Z" name="test" data-provider="TestScript_1" finished-at="2023-02-23T11:01:28Z" duration-ms="3118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
+        <test-method is-config="true" signature="FailureSetup()[pri:0, instance:Main.testcase.demo@35fc6dc4]" started-at="2023-02-23T11:01:28Z" name="FailureSetup" finished-at="2023-02-23T11:01:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailureSetup -->
       </class> <!-- Main.testcase.demo -->
-    </test> <!-- uth-uk_Assesment -->
-  </suite> <!-- Default Suite -->
+    </test> <!-- Uth-uk Assesment portal -->
+  </suite> <!-- Uth-uk Assesment portal Test Automation Test Suite -->
 </testng-results>
