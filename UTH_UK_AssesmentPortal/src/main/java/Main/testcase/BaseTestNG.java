@@ -1,5 +1,6 @@
 package Main.testcase;
 
+import Com.Base.resources.ScreenshotforReport;
 import Com.Base.resources.base;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -28,7 +29,8 @@ public class BaseTestNG extends base {
         Reporter.setCurrentTestResult(result);
         if (result.getStatus()==2) {
             Reporter.log("This is failed log from reporter.log" , true);
-
+            ScreenshotforReport ScreenShot = new ScreenshotforReport();
+            ScreenShot.takeScreenshotAtEndOfTest();
         }
         }
     }
